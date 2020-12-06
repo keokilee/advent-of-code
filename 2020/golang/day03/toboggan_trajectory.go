@@ -55,7 +55,7 @@ func main() {
 	}
 
 	product := 1
-	for idx, num := range treeCounts {
+	for _, num := range treeCounts {
 		product *= num
 	}
 
